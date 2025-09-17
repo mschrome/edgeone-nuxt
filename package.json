@@ -1,0 +1,14 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "postinstall": "nuxt prepare && nuxt build"
+  },
+  "dependencies": {
+    "nuxt": "^4.1.2",
+    "vue": "^3.5.21",
+    "vue-router": "^4.5.1",
+    "wrangler": "^4.37.1"
+  }
+}
